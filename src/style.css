@@ -1,0 +1,116 @@
+.App {
+    font-family: sans-serif;
+    font-size: 26px;
+    text-align: left;
+    width: 100%;
+    padding-top: 3px;
+   }
+   .programs {
+    position: absolute;
+    background: rgba(22, 61, 97, 0.794);
+    left: 50%;
+    height: 120vh;
+    border-radius: 1em;
+    top: 2vh;
+    width: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    color: rgba(31, 226, 80, 0.671);
+   }
+   .radioSel{
+    margin-left: 30px;
+   }
+   .parentInputs {
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 10px;
+    width: 250px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(245, 240, 240, 0.925);
+    color: rgb(5, 19, 66);
+    outline: none;
+   }
+   .title
+   {
+    color:rgba(255, 166, 0, 0.897)
+   }
+   .parentLabels {
+    padding-bottom: 20px;
+   }
+   .enrolContainer {
+    position: relative;
+    top: 490px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 450px;
+    text-align: center;
+    display: flex;
+   }
+   .enrolForm {
+    width: 100%;
+    transition: 0.2s;
+   }
+   .inputFields {
+    margin: 10px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgb(13, 138, 65);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgb(245, 240, 240);
+    color: rgb(5, 19, 66);
+    outline: none;
+   }
+   .ulEnrol {
+    list-style-type: none;
+    padding: 0;
+   }
+   #btnEnrol {
+    border: 1px solid ;
+    background: rgb(50, 58, 59);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-bottom: 30px;
+   }
+   ::placeholder {
+    color: rgba(83, 70, 70, 0.596);
+    opacity: 1;
+   }
+   .message {
+    color:rgba(31, 226, 80, 0.671);
+   }
+   .enrolList
+{
+ position: absolute;
+ top: 900px;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 40%;
+ height: 450px;
+ text-align: center;
+ display: flex;
+}
+div[role="checkbox"]
+{
+ display: none;
+}
+h1{
+    height: 10em;
+    border: 1px solid red;
+    width: 10em;
+}
+.actionIcon {
+    font-size: 16px;
+    color: rgb(77, 133, 141);
+    cursor: pointer;
+   }
